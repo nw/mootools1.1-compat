@@ -29,7 +29,7 @@ Element.implement({
     replaceWith: function(el){
 		console.warn('el.replaceWith is deprecated.');
         el = $(el);
-        this.parentNode.replaceChild(el, this);
+        $(this.parentNode).replaceChild(el, this); // wrapped for ie
         return el;
     },
     

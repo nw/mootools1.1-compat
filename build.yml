@@ -1,0 +1,6 @@
+# list of paths to necessary scripts.json
+:dependency_paths:
+  - './Source'                       # This project
+
+# output file path
+:build_path: './mootools-compat.js'
