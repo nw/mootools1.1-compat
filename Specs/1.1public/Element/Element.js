@@ -14,6 +14,5 @@ describe('Element',{
 			value_of(size.y == size.size.y).should_be_true();
 		}
 	} 
-	
-	
 });
+

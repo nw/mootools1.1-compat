@@ -56,3 +56,4 @@ var Ajax = new Class({
         this.onSuccess(text, xml);
     }
 });
+

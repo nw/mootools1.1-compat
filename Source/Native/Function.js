@@ -11,3 +11,4 @@ Function.empty = function(){
 	console.warn('replace Function.empty with $empty');
 	return $empty();
 };
+

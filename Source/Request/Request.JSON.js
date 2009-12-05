@@ -23,3 +23,4 @@ JSON.Remote = new Class({
     }
 
 });
+

@@ -5,3 +5,4 @@ Fx.Styles = new Class({
 			return this.parent(el,options);
 		}
 	});
+	

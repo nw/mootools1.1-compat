@@ -7,3 +7,4 @@ var $ES = function(selector, filter){
 	console.warn('$ES is deprecated.');
     return ($(filter) || document).getElements(selector);
 };
+

@@ -449,6 +449,7 @@ Fx.Styles = new Class({
 	});
 
 
+
 	JSON.Remote = new Class({
 
 	    options: {

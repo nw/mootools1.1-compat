@@ -4,3 +4,4 @@
 
 # output file path
 :build_path: './mootools-compat.js'
+
