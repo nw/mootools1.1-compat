@@ -1,0 +1,95 @@
+{
+
+	"Core": {
+
+		"Core": {
+			"deps": ["Core"]
+		},
+
+		"Browser": {
+			"deps": ["Core"]
+		}
+
+	},
+
+	"Native": {
+
+		"Array": {
+			"deps": ["Core"]
+		},
+
+		"Function": {
+			"deps": ["Core"]
+		},
+
+		"Hash": {
+			"deps": ["Core"]
+		}
+
+	},
+
+	"Class": {
+
+		"Class": {
+			"deps": ["Core", "Array", "Function", "Hash"]
+		}
+
+	},
+
+	"Element": {
+
+		"Element": {
+			"deps": ["Browser", "Array", "Function", "Hash"]
+		},
+
+		"Element.Event": {
+			"deps": ["Element"]
+		}
+
+	},
+
+
+	"Utilities": {
+
+		"Selectors": {
+			"deps": ["Element"]
+		},
+
+		"JSON": {
+			"deps": ["Array", "Function", "Hash"]
+		},
+
+		"Cookie": {
+			"deps": ["Browser"]
+		}
+	},
+
+	"Fx": {
+
+		"Fx": {
+			"deps": ["Class"]
+		},
+
+		"Fx.Tween": {
+			"deps": ["Fx", "Element"]
+		},
+
+		"Fx.Morph": {
+			"deps": ["Fx.Tween"]
+		}
+
+	},
+
+	"Request": {
+
+		"Request": {
+			"deps": ["Class", "Element"]
+		},
+		
+		"Request.JSON": {
+			"deps": ["Request", "JSON"]
+		}
+
+	}
+
+}
